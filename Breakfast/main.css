@@ -1,0 +1,36 @@
+html{
+    font-size: 22px
+}
+body{
+    background-image:url(download.jpeg);
+    color: black;
+}
+a{
+    color: green;
+}
+a:visited{
+    color:purple;
+}
+a:hover, a:active {
+    color: blue;
+}
+ol li{
+    counter-increment:list;
+    list-style-type:none;
+    position:relative;
+}
+ol li:before {
+    color: rgb(0, 128, 9);
+    content: counter(list) ".";
+    left: -32px;
+    position: absolute;
+    text-align: right;
+    width: 26px;
+}
+ul
+{
+    list-style-type: '✽ ';
+}
+p{
+    text-align:justify;
+}
