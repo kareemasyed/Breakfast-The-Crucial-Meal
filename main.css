@@ -1,8 +1,9 @@
 html{
     font-size: 22px
+    
 }
 body{
-    background-image:url(download.jpeg);
+    background-color: #F1E8EA
     color: black;
 }
 a{
